@@ -17,11 +17,11 @@
     background: transparent;
 }
 
-.portfolio__item-image {
+/* .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
     height: 30%;
-}
+} */
 
 .portfolio__item h3 {
     margin: 2rem 0;
@@ -29,13 +29,18 @@
 
 .portfolio__item p {
     margin: 0 0 1.2rem 0;
+    margin-bottom: 1.2rem;
     font-size: 0.9rem;
+    /* justify text */
+    text-align: justify;
 }
 
 .portfolio__item-cta {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 1rem;
-    margin-bottom: 2rem; 
+    margin-top: 5rem;
 }
 
 .portfolio__item-content {
