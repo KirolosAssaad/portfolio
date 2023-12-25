@@ -1,8 +1,8 @@
-import React from 'react';
-import { FaAward } from 'react-icons/fa';
-import { VscFolderLibrary } from 'react-icons/vsc';
-import ME from '../../assets/me.jpg';
-import './intro.css';
+import React from "react";
+import { FaAward } from "react-icons/fa";
+import { VscFolderLibrary } from "react-icons/vsc";
+import ME from "../../assets/me4.jpg";
+import "./intro.css";
 
 const Intro = () => {
   return (
@@ -20,7 +20,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ year</small>
+              <small>4+ year</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -28,12 +28,23 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. My experience as a teacher in an international school helped me collaborate with fellow developers from all over the world. Additionally, working with kids isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <p>
+            I’ve spent the last several months in a remote environment, working
+            with HTML, CSS, JavaScript, building everything from landing pages
+            to APIs. My experience as a teacher in an international school
+            helped me collaborate with fellow developers from all over the
+            world. Additionally, working with kids isn’t an easy task, however,
+            it has helped me become efficient, productive, and fast even in a
+            very stressful environment, which is an important skill in the tech
+            industry.
+          </p>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;
