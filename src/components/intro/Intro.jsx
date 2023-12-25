@@ -29,14 +29,18 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            I’ve spent the last several months in a remote environment, working
-            with HTML, CSS, JavaScript, building everything from landing pages
-            to APIs. My experience as a teacher in an international school
-            helped me collaborate with fellow developers from all over the
-            world. Additionally, working with kids isn’t an easy task, however,
-            it has helped me become efficient, productive, and fast even in a
-            very stressful environment, which is an important skill in the tech
-            industry.
+            Kirolos Mikhail is a driven Computer Engineering student at The
+            American University in Cairo, set to graduate in December 2023 with
+            a GPA of 3.6/4.0. With a robust technical skill set, he gained
+            practical experience as a DevOps Developer and Full Stack Developer
+            in various internships. Kirolos excels in programming languages, web
+            technologies, machine learning, and DevOps tools. His project
+            portfolio includes a Personalized Food Ordering Chatbot and a UDP
+            Client-Server with load balancing. Beyond academics, he showcased
+            leadership as the Co-Chair of the SU Technology committee and the
+            General Manager of Human Resources in the First Year program. Fluent
+            in Arabic and English, Kirolos is poised for impactful contributions
+            in computer engineering.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

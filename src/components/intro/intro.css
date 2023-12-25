@@ -35,7 +35,7 @@
 }
 
 .about__card {
-    margin-top: 7rem;
+    margin-top: 2rem;
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -68,6 +68,7 @@
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align: justify;
 }
 
 @media screen and (max-width: 1024px){
