@@ -20,15 +20,8 @@ const Experience = () => {
         <div className="experience__backend">
           <h3>Programming Languages</h3>
           <div
-            className="experience__content"
-            style={{
-              // 2 columns if screen size is less than 768px else 4 columns
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
-              gap: "1rem",
-              
-              
-            }}
+            className="newexperience__content"
+            // create a style that fits 4 columns in a large screen and 2 in a small screen
           >
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
