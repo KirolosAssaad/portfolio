@@ -22,9 +22,12 @@ const Experience = () => {
           <div
             className="experience__content"
             style={{
-              // make it 4 columns
+              // 2 columns if screen size is less than 768px else 4 columns
               display: "grid",
-              gridTemplateColumns: "repeat(4, 1fr)",
+              gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
+              gap: "1rem",
+              
+              
             }}
           >
             <article className="experience__details">
